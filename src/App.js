@@ -1,10 +1,13 @@
-import './App.css';
+import "./App.css";
+// import DigitButton from "./components/DigitButton/DigitButton";
+import Calculator from "./components/Calculator/Calculator";
+// import Display from "./components/Display/Display";
 
 function App() {
   return (
-    <>
-      Hello from Calculator
-    </>
+    <div className="calculator-container">
+      <Calculator />
+    </div>
   );
 }
 

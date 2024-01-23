@@ -1,0 +1,10 @@
+.calculator-container {
+  /* margin-top:3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+  width: auto;
+  border-radius: 1rem;
+}
