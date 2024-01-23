@@ -1,4 +1,3 @@
-import DigitButton from "../DigitButton/DigitButton";
 import Display from "../Display/Display";
 import "./Calculator.css";
 
