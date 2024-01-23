@@ -6,7 +6,6 @@ const Calculator = () => {
   return (
     <div className="calculator-">
       <Display />
-      <DigitButton />
     </div>
   );
 };

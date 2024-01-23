@@ -158,8 +158,6 @@ const Display = () => {
     {}
   );
 
-  // dispatch({ type: ACTIONS.ADD_DIGIT, payload: { digit: 1}})
-
   return (
     <>
       <div className="output">
@@ -177,7 +175,6 @@ const Display = () => {
         >
           C
         </button>
-        {/* <OperationButton dispatch={dispatch} operation="+/-" /> */}
 
         <button
           style={{ fontSize: "34px" }}
@@ -215,7 +212,6 @@ const Display = () => {
           style={styles.rightmost}
         />
         <DigitButton dispatch={dispatch} digit="0" style={styles.spanTwo} />
-        {/* <button onClick={()=> dispatch({type: ACTIONS.PERCENTAGE})} >%</button> */}
         <DigitButton dispatch={dispatch} digit="." />
         <button
           style={styles.rightmost}
